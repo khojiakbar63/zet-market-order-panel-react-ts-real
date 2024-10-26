@@ -1,4 +1,5 @@
 aside {
+  position: relative;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(19px);
   -webkit-backdrop-filter: blur(19px);
@@ -27,10 +28,10 @@ aside {
     &-item {
       text-decoration: none;
       color: #6a707a;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 600;
       margin-bottom: 10px;
-      padding: 16px 24px;
+      padding: 12px 24px;
       width: 100%;
       border-radius: 35px;
       display: block;
@@ -40,6 +41,28 @@ aside {
       &:hover {
         color: #3d4451;
       }
+    }
+  }
+  .settings {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+    .avatar {
+      border: 3px solid #d6dde2;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+    .full-name {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
     }
   }
 }

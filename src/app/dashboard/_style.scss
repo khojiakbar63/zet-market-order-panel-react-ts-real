@@ -4,4 +4,16 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  .wrapper {
+    width: 80%;
+    min-height: 70vh;
+
+    background: #fff;
+    backdrop-filter: blur(19px);
+    -webkit-backdrop-filter: blur(19px);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 10px;
+    top: 0;
+  }
 }

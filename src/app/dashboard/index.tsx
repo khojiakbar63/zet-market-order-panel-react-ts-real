@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import './_style.scss';
 import { Outlet } from 'react-router';
 import { Aside, Header } from '@/components';
+import './_style.scss';
 
 export const Dashboard: FC = () => {
   return (
@@ -10,7 +10,7 @@ export const Dashboard: FC = () => {
         <Aside />
         <section className="wrapper">
           <Header />
-          <section id="route">
+          <section className="route">
             <Outlet />
           </section>
         </section>
@@ -18,8 +18,3 @@ export const Dashboard: FC = () => {
     </>
   );
 };
-
-{
-  /* <h1>Dashboard</h1>
-   */
-}
