@@ -38,3 +38,39 @@ export const navigation: TnavigationType[] = [
     role: ['admin', 'employee'],
   },
 ];
+
+
+
+import { MdOutlineWidgets } from "react-icons/md";
+import { IoIosDoneAll } from "react-icons/io";
+import { MdFreeCancellation } from "react-icons/md";
+import { SiGoogleads } from "react-icons/si";
+
+
+export const StatData = [
+  {
+    title: 'New Orders',
+    number: 234,
+    icon: <MdOutlineWidgets />,
+    color: '#4379F2'
+  },
+  {
+    title: 'Completed Orders',
+    number: 446,
+    icon: <IoIosDoneAll />,
+    color: '#06D001'
+  },
+  {
+    title: 'Cancelled Orders',
+    number: 26,
+    icon: <MdFreeCancellation />,
+    color: '#FF7777'
+  },
+  {
+    title: 'Employees',
+    number: 52,
+    icon: <SiGoogleads />,
+    color: '#6295A2'
+  },
+  
+];

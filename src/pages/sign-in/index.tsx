@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import type { FormProps } from 'antd';
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Button, Form, Input } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { useNavigate } from 'react-router';
 import './_style.scss';
@@ -60,7 +60,12 @@ const index: FC = () => {
           </Form.Item>
 
           <Form.Item>
-            <Button onClick={()=> navigate('/')} className="sign_btn" type="primary" htmlType="submit">
+            <Button
+              onClick={() => navigate('/')}
+              className="sign_btn"
+              type="primary"
+              htmlType="submit"
+            >
               Sign In
             </Button>
           </Form.Item>

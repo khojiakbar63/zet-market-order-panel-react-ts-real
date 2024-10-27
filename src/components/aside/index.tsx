@@ -11,7 +11,7 @@ const index: FC = () => {
   return (
     <aside>
       <div className="logo">
-        <img width={34} src="/z-logo.png" alt="logo" />
+        <img width={24} src="/z-logo.png" alt="logo" />
         <span className="logo-text">ZET MARKET B2B</span>
       </div>
 

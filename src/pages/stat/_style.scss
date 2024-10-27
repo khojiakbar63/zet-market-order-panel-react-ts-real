@@ -1,0 +1,11 @@
+.stat_cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.stat_cards::-webkit-scrollbar {
+  display: none;
+}
