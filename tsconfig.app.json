@@ -24,6 +24,7 @@
       "@stores/*": ["src/stores/*"],
       "@theme/*": ["src/theme/*"],
       "@ui": ["src/components/ui/*"],
+      "@charts": ["src/charts/*"],
     },
 
     /* Bundler mode */

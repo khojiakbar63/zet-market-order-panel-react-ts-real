@@ -45,6 +45,7 @@ export default defineConfig({
       '@stores': path.resolve(__dirname, './src/stores'),
       '@theme': path.resolve(__dirname, './src/theme'),
       '@ui': path.resolve(__dirname, './src/components/ui'),
+      '@charts': path.resolve(__dirname, './src/charts'),
     } as AliasOptions
   },
   

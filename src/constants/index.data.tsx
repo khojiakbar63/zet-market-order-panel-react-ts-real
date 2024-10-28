@@ -39,38 +39,110 @@ export const navigation: TnavigationType[] = [
   },
 ];
 
-
-
-import { MdOutlineWidgets } from "react-icons/md";
-import { IoIosDoneAll } from "react-icons/io";
-import { MdFreeCancellation } from "react-icons/md";
-import { SiGoogleads } from "react-icons/si";
-
+import { MdOutlineWidgets } from 'react-icons/md';
+import { IoIosDoneAll } from 'react-icons/io';
+import { MdFreeCancellation } from 'react-icons/md';
+import { SiGoogleads } from 'react-icons/si';
 
 export const StatData = [
   {
     title: 'New Orders',
     number: 234,
     icon: <MdOutlineWidgets />,
-    color: '#4379F2'
+    color: '#4379F2',
   },
   {
     title: 'Completed Orders',
     number: 446,
     icon: <IoIosDoneAll />,
-    color: '#06D001'
+    color: '#06D001',
   },
   {
     title: 'Cancelled Orders',
     number: 26,
     icon: <MdFreeCancellation />,
-    color: '#FF7777'
+    color: '#FF7777',
   },
   {
     title: 'Employees',
     number: 52,
     icon: <SiGoogleads />,
-    color: '#6295A2'
+    color: '#6295A2',
   },
-  
+];
+
+export const Bar_Chart = [
+  {
+    quarter: 'January',
+    year: 2024,
+    month: 1,
+    totalPrice: 1000,
+  },
+  {
+    quarter: 'February',
+    year: 2024,
+    month: 2,
+    totalPrice: 2000,
+  },
+  {
+    quarter: 'March',
+    year: 2024,
+    month: 3,
+    totalPrice: 3000,
+  },
+  {
+    quarter: 'April',
+    year: 2024,
+    month: 4,
+    totalPrice: 3000,
+  },
+  {
+    quarter: 'May',
+    year: 2024,
+    month: 5,
+    totalPrice: 3000,
+  },
+  {
+    quarter: 'June',
+    year: 2024,
+    month: 6,
+    totalPrice: 6000,
+  },
+  {
+    quarter: 'July',
+    year: 2024,
+    month: 7,
+    totalPrice: 7000,
+  },
+  {
+    quarter: 'August',
+    year: 2024,
+    month: 8,
+    totalPrice: 9800,
+  },
+  {
+    quarter: 'September',
+    year: 2024,
+    month: 9,
+    totalPrice: 10000,
+  },
+  {
+    quarter: 'October',
+    year: 2024,
+    month: 10,
+    totalPrice: 11000,
+  },
+  {
+    quarter: 'November',
+    year: 2024,
+    month: 11,
+    totalPrice: 12000,
+  },
+  {
+    quarter: 'December',
+    year: 2024,
+    month: 12,
+    totalPrice: 13000,
+  }
+
 ];

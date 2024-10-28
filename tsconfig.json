@@ -23,6 +23,7 @@
       "@constants": ["src/constants/*"],
       "@stores": ["src/stores/*"],
       "@ui": ["src/components/ui/*"],
+      "@charts": ["src/charts/*"],
     },
   }
 }

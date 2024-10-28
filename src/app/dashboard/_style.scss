@@ -1,15 +1,12 @@
 main {
   background: #b4c2ca;
   min-height: 100vh;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   .wrapper {
     width: 80%;
     min-height: 70vh;
     backdrop-filter: blur(19px);
     -webkit-backdrop-filter: blur(19px);
-    border-radius: 10px;
     top: 0;
   }
 }

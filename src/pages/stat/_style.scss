@@ -5,6 +5,13 @@
   overflow-x: scroll;
   scrollbar-width: none;
 }
+.chart {
+  margin-top: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: rgb(249, 249, 249);
+  width: calc(100vw -  350px);
+}
 
 .stat_cards::-webkit-scrollbar {
   display: none;
