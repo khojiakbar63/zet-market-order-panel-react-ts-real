@@ -11,3 +11,17 @@ export type TCardProps = {
   icon: React.JSX.Element;
   color: string
 };
+
+export interface IDataType {
+  key: React.Key | string | number;
+  id: number;
+  date: string;
+  fullName: string;
+  phoneNumber: string;
+  address: string;
+  productName: string;
+  quantity: number;
+  paymentMethod: string;
+  totalPrice: number;
+  status: string;
+}

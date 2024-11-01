@@ -146,3 +146,28 @@ export const Bar_Chart = [
   }
 
 ];
+
+export const PartnerTypeDate = [
+
+  {
+    label: <a href="#">UZUM</a>,
+    value: 'UZUM',
+    key: 'UZUM'
+  },
+  {
+    label: <a href="#">ALIF</a>,
+    value: 'ALIF',
+    key: 'ALIF'
+  },
+  {
+    label: <a href="#">OPEN CARD</a>,
+    value: 'OPEN CARD',
+    key: 'OPEN CARD'
+  },
+  {
+    label: <a href="#">ZOOD PAY</a>,
+    value: 'ZOOD PAY',
+    key: 'ZOOD PAY'
+  },
+]
+

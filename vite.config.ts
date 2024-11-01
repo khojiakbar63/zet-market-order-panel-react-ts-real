@@ -7,9 +7,8 @@ import path from 'path'
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'lib/main.js'),
+      entry: resolve(__dirname, 'lib/main.js'), // Confirm path here
       name: 'MyLib',
-      // the proper extensions will be added
       fileName: 'my-lib'
     },
     rollupOptions: {
@@ -42,7 +41,8 @@ export default defineConfig({
       '@services': path.resolve(__dirname, './src/services'),
       '@layouts': path.resolve(__dirname, './src/layouts'),
       '@constants': path.resolve(__dirname, './src/constants'),
-      '@stores': path.resolve(__dirname, './src/stores'),
+      '@store': path.resolve(__dirname, './src/stores/store.ts'),
+      '@stores': path.resolve(__dirname, './src/stores/index.ts'),
       '@theme': path.resolve(__dirname, './src/theme'),
       '@ui': path.resolve(__dirname, './src/components/ui'),
       '@charts': path.resolve(__dirname, './src/charts'),

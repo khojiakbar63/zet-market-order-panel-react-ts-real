@@ -10,7 +10,9 @@
   border-radius: 30px;
   overflow: hidden;
   background-color: rgb(249, 249, 249);
-  width: calc(100vw -  350px);
+  width: calc(100vw - 350px);
+  width: 100%;
+
 }
 
 .stat_cards::-webkit-scrollbar {
